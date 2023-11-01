@@ -12,6 +12,8 @@ code {
     monospace;
 }
 
+/** Home Page **/
+
 .header {
   background-color: #ffffff;
   display: flex;
@@ -51,6 +53,8 @@ code {
   padding: 20px;
   margin: 10px;
   text-align: center;
+  width: 300px;
+  height: 300px;
 }
 
 .card-image {
@@ -61,6 +65,10 @@ code {
 
 .card-title {
   font-size: 18px;
+  color: white;
+  display: flex;
+  margin-top: 230px;
+  font-weight: 500;
 }
 
 .gallery {
@@ -69,6 +77,8 @@ code {
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 20px;
+  margin: 60px;
+  border-radius: 10px;
 }
 
 .footer {
