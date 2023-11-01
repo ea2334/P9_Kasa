@@ -1,9 +1,7 @@
-function Gallery({ apartments }) {
+function Gallery() {
     return (
       <div className="gallery">
-        {apartments.map((apartment, index) => (
-          <Card key={index} apartment={apartment} />
-        ))}
+        <Card />
       </div>
     );
   }
