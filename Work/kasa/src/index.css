@@ -47,6 +47,16 @@ code {
   border-radius: 10px;
 }
 
+.banner-about {
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+  border-radius: 10px;
+}
+
+.banner-image{
+  border-radius: 10px;
+}
 
 .card {
   background-color: #FF6060;
