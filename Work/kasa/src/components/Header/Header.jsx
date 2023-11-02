@@ -1,14 +1,13 @@
+import { Link } from "react-router-dom"
+import Logo from "../../assets/images/LOGO.png"
+
 function Header(){
     return(
         <header className="header">
-      <img src="P8_Emir/Work/kasa/src/assets/images/LOGO.png" alt="Logo Kasa" />
+      <img src={Logo} alt="Logo Kasa" />
       <nav className="menu">
-        <div className="menu-item">
-          Accueil
-        </div>
-        <div className="menu-item">
-          À Propos
-        </div>
+        <Link to="/">Accueil</Link>
+        <Link to="/a-propos">A Propos</Link>
       </nav>
     </header>
     )
