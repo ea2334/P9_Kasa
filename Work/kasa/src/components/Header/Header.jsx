@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom"
 import Logo from "../../assets/images/LOGO.png"
-import Banner from "../../assets/images/Banner.png"
+import Banner from "../../components/Banner/Banner"
 
 
 function Header(){
     return(
   <header className="header">
-    
+
         <div className="logo-menu">
 
             <img src={Logo} alt="Logo Kasa" />
@@ -17,10 +17,6 @@ function Header(){
             </nav>
 
         </div>
-
-       <div className="banner-home">
-            <img src={Banner} alt="Bannière" className="banner-image" />
-       </div>
 
   </header>
     )
