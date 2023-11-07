@@ -58,7 +58,7 @@ code {
   border-radius: 10px;
 }
 
-.card {
+.card{
   background-color: #FF6060;
   border: 1px solid #cccccc;
   border-radius: 8px;
@@ -69,13 +69,13 @@ code {
   height: 300px;
 }
 
-.card-image {
+.cover{
   width: 100%;
   height: auto;
   border-radius: 8px;
 }
 
-.card-title {
+.title {
   font-size: 18px;
   color: white;
   display: flex;
@@ -83,15 +83,6 @@ code {
   font-weight: 500;
 }
 
-.gallery {
-  background-color: #f6f6f6;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 20px;
-  margin: 60px;
-  border-radius: 10px;
-}
 
 /** Footer **/
 
