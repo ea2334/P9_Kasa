@@ -1,7 +1,12 @@
+import Header from "../../components/Header/Header"
+import Footer from "../../components/Footer/Footer"
+
 function Logements(){
     return(
         <>
-        <h1>Logements</h1>
+        <Header />
+
+        <Footer />
         </>
         
     )

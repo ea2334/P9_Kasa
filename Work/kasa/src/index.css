@@ -58,22 +58,41 @@ code {
   border-radius: 10px;
 }
 
+/** Gallery et Cards **/
+
+.gallery {
+  background-color: #F6F6F6;
+  margin-top: 6px;
+  margin: 45px;
+  border-radius: 10px;
+  min-height: 300px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+   }
+
+.gallery a {
+  text-decoration: none;
+}
+
+
+
 .card{
   background-color: #FF6060;
   border: 1px solid #cccccc;
-  border-radius: 8px;
-  padding: 20px;
+  border-radius: 30px;
+  padding: 10px;
   margin: 10px;
-  text-align: center;
   width: 300px;
   height: 300px;
 }
-
+/*
 .cover{
   width: 100%;
   height: auto;
   border-radius: 8px;
 }
+ */
 
 .title {
   font-size: 18px;
