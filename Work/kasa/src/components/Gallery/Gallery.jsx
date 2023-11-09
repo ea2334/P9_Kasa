@@ -1,33 +1,30 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Appartement from "../Appartement/Appartement";
 
-fetch("./data/data.json")
-.then((res) => res.json())
-.then(console.log)
-.catch(console.error);
+
 
 function Gallery() {
 
-fetch("./data/data.json")
-.then((res) => res.json())
-.then((res) => console.log)
-.catch(console.error);
+const {apartments, setApartment} = useState({});
 
-useState(0);
+useEffect(fetchApartment, {});
+
+function fetchApartment(){
+fetch("./data.json")
+.then((res) => res.json())
+.then((res) => setApartment(res))
+.catch(console.error);
+}
 
     return (
-      <>
+      
       <div className="gallery">
-
-         <Appartement />
-         <Appartement />
-         <Appartement />
-         <Appartement />
-         <Appartement />
-         <Appartement />
+        {apartments.map((apartment) => (
+          <Appartement title={apartment.title} image={apartment.cover} />
+        ))}
 
       </div>
-      </>
+
     );
   }
   

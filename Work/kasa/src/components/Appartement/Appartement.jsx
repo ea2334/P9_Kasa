@@ -1,13 +1,15 @@
 import { Link } from "react-router-dom";
+import React from "react";
 
-function Appartement() {
+function Appartement(props) {
+
+console.log("", props);
 
     return (
-      <Link to="/Logements">
         <div className="card">
-           <div className="title">Titre de la location </div>
+           <img src={props.image} alt="Image de l'appartement" />
+           <div className="title_apart">{props.title}</div>
         </div>
-      </Link>
     )
   }
   
