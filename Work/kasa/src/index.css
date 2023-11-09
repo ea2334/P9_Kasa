@@ -78,21 +78,21 @@ code {
 
 
 .card{
-  background-color: #FF6060;
-  border: 1px solid #cccccc;
+  
+  
   border-radius: 30px;
   padding: 10px;
   margin: 10px;
   width: 300px;
   height: 300px;
 }
-/*
-.cover{
+
+img{
   width: 100%;
   height: auto;
   border-radius: 8px;
 }
- */
+ 
 
 .title_apart {
   font-size: 18px;
