@@ -1,6 +1,7 @@
 import Header from "../../components/Header/Header"
 import Footer from "../../components/Footer/Footer"
 import Bannerabout from "../../components/Banner/Bannerabout"
+import Fiabilite from "../../components/AboutBarre/Fiabilite"
 
 
 function About(){
@@ -8,7 +9,8 @@ function About(){
         <>
         <Header />
         <Bannerabout />
-
+        
+        <Fiabilite />
        
 
         <Footer />

@@ -75,11 +75,7 @@ code {
   text-decoration: none;
 }
 
-
-
 .card{
-  
-  
   border-radius: 30px;
   padding: 10px;
   margin: 10px;
@@ -87,7 +83,7 @@ code {
   height: 300px;
 }
 
-img{
+.card img{
   width: 100%;
   height: auto;
   border-radius: 8px;
@@ -95,13 +91,11 @@ img{
  
 
 .title_apart {
+  position: absolute;
   font-size: 18px;
-  color: white;
-  display: flex;
-  margin-top: 230px;
   font-weight: 500;
+  color: blacks;
 }
-
 
 /** Footer **/
 
@@ -148,4 +142,31 @@ img{
   font-weight: 500;
   text-decoration: none;
   color: #FF6060;
+}
+
+/*** About page ***/
+
+.barre{
+  margin: 80px;
+}
+
+.barre-title{
+  background-color: #FF6060;
+  color: white;
+  border-radius: 10px;
+  margin-block: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.barre-content{
+  background-color: #F6F6F6;
+  color: #FF6060;
+  border-radius: 10px;
+  padding: 18px;
+
+  position: relative;
+  top: -5px;
+  z-index: -1;
+  
 }
