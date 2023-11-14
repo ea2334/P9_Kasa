@@ -13,7 +13,7 @@ function Gallery() {
       
       <div className="gallery">
         {Datas.map((apartment) => (
-          <Appartement title={apartment.title} image={apartment.cover} key={apartment.id} />
+          <Appartement title={apartment.title} image={apartment.cover} id={apartment.id} key={apartment.id} />
         ))}
 
       </div>

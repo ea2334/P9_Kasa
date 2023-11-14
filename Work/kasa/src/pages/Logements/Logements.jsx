@@ -1,7 +1,13 @@
 import Header from "../../components/Header/Header"
 import Footer from "../../components/Footer/Footer"
+import Datas from "../../data/data.json"
+import { useParams } from 'react-router-dom';
 
 function Logements(){
+
+    const { id } = useParams(); // Utilisation de l'id en paramètre
+    const logement = Datas.find(logement => logement.id === id);
+
     return (
 
         <>
@@ -11,10 +17,10 @@ function Logements(){
          <div className="img-logements"></div>
 
          <div className="content-logements">
-              <h2 className="title-logements">Titre</h2>
+              <h2 className="title-logements">{logement.title}</h2>
 
            <div className="content-log-deux">  
-                 <div className="location-logements">Paris</div>
+                 <div className="location-logements">{logement.location}</div>
                  <div className="rating-logements">****</div>
            </div>
 
