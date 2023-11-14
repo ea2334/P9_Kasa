@@ -170,3 +170,41 @@ code {
   z-index: -1;
   
 }
+
+/*** Fiche Logement ***/
+
+.content-logements{
+  margin: 100px;
+}
+
+.title-logements{
+  font-size: 36px;
+  font-weight: 500;
+  color: #FF6060;
+}
+
+.location-logements{
+  font-size: 18px;
+  font-weight: 500;
+  color: #FF6060;
+}
+
+.content-log-deux{
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating-logements{
+  font-size: 36px;
+  font-weight: 500;
+  color: #FF6060;
+}
+
+.barre-logements{
+  width: 40%;
+}
+
+.description-logements{
+  display: flex;
+  justify-content: space-between;
+}
